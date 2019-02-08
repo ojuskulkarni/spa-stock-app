@@ -1,7 +1,6 @@
 app.controller('mainController', function($scope) {
     $scope.liveData = [];
     $scope.testArray = [];
-    $scope.testArrayData = [];
     $scope.isLabel = '';
 
     var ws = new WebSocket("ws://stocks.mnet.website", "myProtocol");
